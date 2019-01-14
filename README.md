@@ -20,9 +20,9 @@ go get -u github.com/nettyrnp/go-webrtc-cclx
 ```
 
 ### How to launch the app
-* Create an AWS (or GCP, Azure, Heroku...) 'instance' for hosting and running the application (WebRtc-Cclx). 
+* Create an account at AWS (or GCP, Azure, Heroku...), e.g. https://console.aws.amazon.com
 
-* Create an account at https://console.aws.amazon.com
+* Create an 'instance' for hosting and running the application (WebRtc-Cclx). 
 
 * Copy intance ID and IP (e.g. '<intance_ID>=i-08323c3e2cb6e976f' and '<intance_IP>=34.227.15.123')
 
