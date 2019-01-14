@@ -69,13 +69,11 @@ sudo /usr/local/bin/docker-compose up --build
 ```
 
 * Start conferencing:
--- Open the page in Chrome at your PC/Mac ('doctor'): 
 ```
+Open the page in Chrome at your PC/Mac ('doctor'): 
 https://<intance_IP>:5000/
-```
 
--- Open the page in Chrome at some other PC/Mac ('patient'): 
-```
+Open the page in Chrome at some other PC/Mac ('patient'): 
 https://<intance_IP>:5000/
 ```
 
