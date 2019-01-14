@@ -53,13 +53,9 @@ sudo nano ~/app/mygo/src/github.com/nettyrnp/go-webrtc-cclx/www/index.html
 and change the line: const SIGNALER_URI = 'localhost:5001' --> const SIGNALER_URI = '<intance_IP>:5001'
 ```
 
-* Go to 'go-webrtc-cclx' folder:
-```
-cd ~/app/mygo/src/github.com/nettyrnp/go-webrtc-cclx
-``` 
-
 * Launch the app:
 ```
+cd ~/app/mygo/src/github.com/nettyrnp/go-webrtc-cclx
 sudo /usr/local/bin/docker-compose up --build
 ```
 
@@ -85,6 +81,7 @@ https://<intance_IP>:5000/
 ```
 * Launch the app
 ```
+cd ~/app/mygo/src/github.com/nettyrnp/go-webrtc-cclx
 docker-compose up --build
 ```
 * Start conferencing (with yourself)
