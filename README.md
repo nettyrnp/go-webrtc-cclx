@@ -14,7 +14,7 @@ WebRtc-Cclx is a minimal deploy with multi-conferencing functionality. It has a 
 ```
 (see https://golang.org/doc/install)
 ```
-* Install WebRtc-Cclx
+* Install WebRtc-Cclx source code
 ```
 go get -u github.com/nettyrnp/go-webrtc-cclx
 ```
@@ -44,10 +44,10 @@ ssh -i /path/my_key_pair.pem ec2-user@<intance_IP>
 
 * Install the environment in your instance
 ```
-Follow the instructions described in 'Installing the environment' below
+Follow the instructions described in 'Installing the environment'
 ```
 
-* Change 1 line in 'index.html'. Open it:
+* Change a line in 'index.html'. Open it:
 ```
 sudo nano ~/app/mygo/src/github.com/nettyrnp/go-webrtc-cclx/www/index.html
 and change the line: const SIGNALER_URI = 'localhost:5001' --> const SIGNALER_URI = '<intance_IP>:5001'
